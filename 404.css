@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+header {
+  min-height: 100vh;
+  background-image: url("img/back1.jpg");
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity:0.85;
+  }
+  *{
+      z-index: 1;
+  }
+  .container {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding: 0 1rem;
+    
+        font-size: 1.2rem;
+        font-weight: 300;
+        opacity: 0.9;
+        width: 420px;
+       
+    }
+    h1{
+        font-size: 6rem;
+        line-height: 1.1;
+        text-transform: uppercase;
+        font-weight: 200;
+        margin-top: 0;
+        margin-bottom: 0;
+      
+    }
+    h4{
+        font-size: 1.2rem;
+        font-weight: 300;
+    }
+   
+   
