@@ -15,6 +15,8 @@
   <meta property="og:type" content="website" />
   <link rel="stylesheet" type="text/css" href="bootstrap.min.css" />
   <link  rel="stylesheet" type="text/css" href="style.css"/>
+  <link  rel="stylesheet" type="text/css" href="modal.css"/>
+
   <link  rel="stylesheet" type="text/css" href="ihover.css"/>
 
  <!-- Including the bootstrap CDN -->
@@ -268,7 +270,24 @@
                   <p class="card-text">SITE WEB de référencement de restaurateur caraïbéens RÉALISER POUR LE TITRE PROFESSIONNEL : DÉVELOPPEUR WEB ET WEB MOBILE - CCP 1.
                 </p>
                   <a href="http://greta.atessier.com/Corvo_Matthieu/" class="btn btn-success">DEMO</a>
-                  <a href="404.html" class="btn btn-outline-success my-2 my-sm-0"><i class="fab fa-github"></i></a>
+                  <button class="modal-button btn btn-outline-success my-2 my-sm-0" href="#myModal1"><i class="fab fa-github"></i></button>
+
+                  <!-- The Modal -->
+                  <div id="myModal1" class="modal">
+                  
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <i class="fas fa-cog fa-spin"></i>
+
+                        En cours d'acheminement   
+                        <span class="close">×</span>
+                      </div>
+                  
+                    </div>
+                  
+                  </div>      
+               
                 </div>
               </div>
         </div>
@@ -281,9 +300,31 @@
                   <h5 class="card-title" style="color:orangered; font-size:30px;">KARAÏBES FOODS MOBILE</h5>
                   <p class="card-text">Page de présentation d'une application mobile
                 </p>
-                  <a href="404.html" class="btn btn-success">DEMO</a>
-                  <a href="404.html" class="btn btn-outline-success my-2 my-sm-0"><i class="fab fa-github"></i></a>
-                </div>
+                  <button href="#myModal2" class="modal-button btn btn-success">DEMO</button>
+                      <!-- The Modal -->
+                      <div id="myModal2" class="modal">                  
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <i class="fas fa-cog fa-spin"></i>
+                            En cours d'acheminement   
+                            <span class="close">×</span>
+                          </div>                 
+                        </div>
+                      </div>
+                  <button class="modal-button btn btn-outline-success my-2 my-sm-0" href="#myModal3"><i class="fab fa-github"></i></button>
+                  <!-- The Modal -->
+                  <div id="myModal3" class="modal">                  
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <i class="fas fa-cog fa-spin"></i>
+                        En cours d'acheminement   
+                        <span class="close">×</span>
+                      </div>                 
+                    </div>
+                  </div>      
+                        </div>
               </div>
         </div>
         <div class="col-lg-4 col-md-6 col-12 pb-5">
@@ -344,7 +385,8 @@
                 
                     <!--Copyright-->
                   
-                
+                    <script src="modalscript.js"></script> 
+
                     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 <!-- *********************************************
