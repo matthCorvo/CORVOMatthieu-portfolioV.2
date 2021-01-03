@@ -191,7 +191,7 @@ text-transform:uppercase;
       }
       .card-text1 {
         color: rgb(52, 68, 37);
-        text-shadow: 1px 1px 2px rgb(19, 26, 14);
+        font-family: "Share Tech Mono", monospace;
         text-transform:uppercase;
 
       }
