@@ -185,16 +185,8 @@
                                     </ul>
 
                                     <div >
-                                        <button onclick="printContent('div1')" class="btn p-0">
-                                            <svg width="1.6em" height="1.6em" viewBox="0 0 16 16" class="bi bi-hdd"
-                                                fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd"
-                                                    d="M14 9H2a1 1 0 0 0-1 1v1a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-1a1 1 0 0 0-1-1zM2 8a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2z" />
-                                                <path
-                                                    d="M5 10.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm-2 0a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0z" />
-                                                <path fill-rule="evenodd"
-                                                    d="M4.094 4a.5.5 0 0 0-.44.26l-2.47 4.532A1.5 1.5 0 0 0 1 9.51v.99H0v-.99c0-.418.105-.83.305-1.197l2.472-4.531A1.5 1.5 0 0 1 4.094 3h7.812a1.5 1.5 0 0 1 1.317.782l2.472 4.53c.2.368.305.78.305 1.198v.99h-1v-.99a1.5 1.5 0 0 0-.183-.718L12.345 4.26a.5.5 0 0 0-.439-.26H4.094z" />
-                                            </svg>
+                                        <button id="div1" class="btn p-0" style="margin-top:10%">
+                                            <a href="#" onmousedown="bleep.play()"  style="background:transparent;"><i class="fas fa-volume-up fa-2x"></i></a>
                                         </button>
                                     </div>
                                 </div>
@@ -205,7 +197,7 @@
                                     <p  class="d-block mb-1">éligible à la prime de <b>8000€</b>, en contrat d'apprentissage, 
                                         à partir du <span style="font-size:15px">29 Mars 2021</span> 
                                         avec un rythme de 3/semaines en entreprise et 1/semaine à l'école
-                                        <span style="color:rgb(0, 153, 255);">☝#Partagersurtwitter #Cliquezpartout😎</span></p>
+                                        <span style="color:rgb(0, 153, 255);">#Cliquezpartout🤳🏾#Partagersurtwitter #AttentionAuxOreilles🔊👂🏾</span></p>
                                     <button class="btn p-0">
                                         <span class="text-muted">Afficher les 2,247 commentaires</span>
                                     </button>
@@ -312,7 +304,6 @@
 </div>
 </div>
 
-</body>
 
 <footer >
 
@@ -320,11 +311,15 @@
      </center>   </footer> 
 <!-- JS, Popper.js, and jQuery -->
 <!-- partial -->
-
+<script>
+    var bleep = new Audio();
+    bleep.src = 'bleep.mp3';
+    </script>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 <script src="assets/js/light.js"></script> 
 <script src="assets/js/hamburger.js"></script> 
+</body>
 
 <!-- avec l'aide de https://github.com/codingvenue/instagram-hompage-clone-bootstrap-->
 </html>
