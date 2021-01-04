@@ -1,7 +1,22 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Share+Tech+Mono&display=swap");
 html, body {
+  width:100%;
   height: 100%;
   overflow-x: hidden;
+}
+
+
+.hamburger{
+  background-color: transparent;
+  border:0;
+  color:rgb(7, 6, 6);
+  font: size 20px;
+  cursor:pointer;
+  display:none;
+}
+
+.hamburger:focus{
+  outline:none;
 }
 .link-menu {
   color: black;
@@ -94,3 +109,21 @@ html, body {
 td:hover{  color: rgb(47, 148, 21);
 }
 a{text-decoration:none;}
+
+@media screen and (max-width: 767px) {
+  nav ul{
+display: none;
+width:100%;
+  }
+  .card1{display: none;
+
+  }
+  #nav-ul.show{
+    display: inline-block;
+  }
+
+  .cacher{display: none}
+  .hamburger{
+    display: block;}
+  .card{left:50%}
+}

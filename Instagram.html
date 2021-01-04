@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container justify-content-center">
             <div class="d-flex flex-row justify-content-between align-items-center col-9">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="index.html">
                     <img src="assets/images/ig-logo.png" alt="" loading="lazy">
                 </a>
                 <div>
@@ -34,8 +34,12 @@
                         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     </form>
                 </div>
+                
                 <div class="d-flex flex-row">
-                    <ul class="list-inline m-0">
+                    <button class="hamburger" id="hamburger">
+                        <i class="fas fa-bars"></i>
+                                        </button>
+                    <ul class="list-inline m-0" id="nav-ul">
                         <li class="list-inline-item">
                             <a href="https://matthcorvo.github.io/CORVOMatthieu-portfolioV.2/" class="link-menu">
                                 <svg width="1.5em" height="1.5em" viewBox="0 0 16 16" class="bi bi-house-door-fill"
@@ -133,16 +137,15 @@
                     <!-- END OF STORIES -->
 
                     <!-- START OF POSTS -->
-                    <div class="d-flex flex-column mt-4 mb-4">
+                    <div class="d-flex flex-column mt-4 mb-4 ">
 
-                        <div class="card">
+                        <div class="card" >
                             <div class="card-header p-3">
                                 <div class="d-flex flex-row align-items-center">
                                     <div
                                         class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border border-danger post-profile-photo mr-3">
                                         <img src="assets/images/profiles/profile-6.jpg" alt="..."
-                                            style="transform: scale(1.5); width: 100%; position: absolute; left: 0;">
-                                    </div>
+                                            style="transform: scale(1.5); width: 100%; position: absolute; left: 0;"></div>
                                     <span class="font-weight-bold">matthieu Corvo</span>
                                 </div>
                             </div>
@@ -199,8 +202,8 @@
                                 <div class="pl-3 pr-3 pb-2">
                                     <strong class="d-block">185.954 j'aime</strong>
                                     <strong class="d-block">matthieu corvo</strong>
-                                    <p  class="d-block mb-1">éligible à la prime de 8000€, en contrat d'apprentissage, 
-                                        à partir du <span style="font-size:20px"><b>29 Mars 2021 </b></span> 
+                                    <p  class="d-block mb-1">éligible à la prime de <b>8000€</b>, en contrat d'apprentissage, 
+                                        à partir du <span style="font-size:15px">29 Mars 2021</span> 
                                         avec un rythme de 3/semaines en entreprise et 1/semaine à l'école
                                         <span style="color:rgb(0, 153, 255);">☝#Partagersurtwitter #Cliquezpartout😎</span></p>
                                     <button class="btn p-0">
@@ -223,8 +226,8 @@
 
                                 <div class="position-relative comment-box">
                                     <form>
-                                        <input class="w-100 border-0 p-3 input-post" placeholder="Ajouter un commentaires...">
-                                        <button  class="btn btn-primary position-absolute btn-ig">Publier</button>
+                                        <input class="w-100 border-0 p-3 input-post" placeholder="Un comantaire...">
+                                        <button  class="btn btn-primary position-absolute btn-ig" >Publier</button>
                                     </form>
                                 </div>
 
@@ -235,7 +238,7 @@
                     </div>
                     <!-- END OF POSTS -->
                 </div>
-                <div class="col-4">
+                <div class="col-4 cacher">
                     <div class="d-flex flex-row align-items-center">
                         <div
                             class="rounded-circle overflow-hidden d-flex justify-content-center align-items-center border sidenav-profile-photo">
@@ -248,11 +251,11 @@
                         </div>
                     </div>
 
-                    <div class="mt-4">
+                    <div class="mt-4 ">
                         <div class="d-flex flex-row justify-content-between">
                             <small class="text-muted font-weight-normal">Retrouver moi sur mes réseaux</small>
                         </div>
-                        <div>
+                        <div >
                             <div class="d-flex flex-row justify-content-between align-items-center mt-3 mb-3">
                                 <div class="d-flex flex-row align-items-center">
                                     <div
@@ -329,6 +332,7 @@
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script> 
 <script src="assets/js/light.js"></script> 
+<script src="assets/js/hamburger.js"></script> 
 
 <!-- avec l'aide de https://github.com/codingvenue/instagram-hompage-clone-bootstrap-->
 </html>
