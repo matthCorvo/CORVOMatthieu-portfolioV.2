@@ -185,6 +185,7 @@ width:100%;
     .card{
         height: 520px;
     }
+   
       .card-text {
 text-transform:uppercase;
        
@@ -257,4 +258,70 @@ text-decoration: none;}
     to {
       text-shadow: 0 0 20px #fff, 0 0 30px #279c04d5, 0 0 40px #279c04d5, 0 0 50px #279c04d5, 0 0 60px #279c04d5, 0 0 70px #279c04d5, 0 0 80px #279c04d5;
     }
+  }
+
+
+
+  
+.text-load {
+    position: absolute;
+    bottom: 5px;
+    right: 90px;
+  }
+  .hover h5{color:rgb(0, 174, 255);}
+  .hover i{color:rgb(0, 174, 255);}
+
+  .hover i:hover, .hover h5:hover{color:rgb(73, 197, 255);}
+  .loader{
+      width: 80px;
+      height: 67px;
+      margin: auto;
+      position: relative;
+  }
+  .loader .square{
+      background:rgb(0, 174, 255);
+      width: 30px;
+      height: 30px;
+      margin: 0 auto;
+      border-radius: 4px;
+    animation-fill-mode: both;
+      animation: motion 2.5s infinite cubic-bezier(0.89, 0.03, 0.06, 1.5);
+  }
+  .loader .path{
+      height: 10px;
+      width: 110px;
+      overflow: hidden;
+      position: absolute;
+      bottom: 40;
+      left: 0;
+  }
+  .loader .path > div{
+      background: #444;
+      width: 10px;
+      height: 10px;
+      border-radius: 2px;
+      margin: 0 15px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      animation-fill-mode: both;
+      animation: dynamic 5s infinite cubic-bezier(0.89, 0.03, 0.06, 1.5);
+  }
+  .loader .path > div:nth-child(1){ left: 40px; }
+  .loader .path > div:nth-child(2){ left: 80px; }
+  .loader .path > div:nth-child(3){ left: 120px; }
+  .loader .path > div:nth-child(4){ left: 160px; }
+  .loader .path > div:nth-child(5){ left: 200px; }
+  .loader .path > div:nth-child(6){ left: 240px; }
+  .loader .path > div:nth-child(7){ left: 280px; }
+  @keyframes motion{
+      50%{ transform: rotate(90deg); }
+      100%{ transform: rotate(180deg); }
+  }
+  @keyframes dynamic{
+      0%{ transform: translateX(-40px); }
+      25%{ transform: translateX(-80px); }
+      50%{ transform: translateX(-120px); }
+      75%{ transform: translateX(-160px); }
+      100%{ transform: translateX(-200px); }
   }
