@@ -148,7 +148,7 @@ width:100%;
   border-radius: 10px;
   transform: scaleX(0);
   transform-origin: left;
-  background:rgb(126, 180, 75);
+  background:#7eb44b;
   animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
 }
 .bar .progress-line.html span{
@@ -250,9 +250,7 @@ width:100%;
     position:relative;      
     z-index:100;  
     }
-    .card{
-        height: 520px;
-    }
+    
    
       .card-text {
 text-transform:uppercase;
@@ -336,10 +334,8 @@ text-decoration: none;}
     bottom: 5px;
     right: 90px;
   }
-  .hover h5{color:rgb(0, 174, 255);}
-  .hover i{color:rgb(0, 174, 255);}
 
-  .hover i:hover, .hover h5:hover{color:rgb(73, 197, 255);}
+
   .loader{
       width: 80px;
       height: 67px;
