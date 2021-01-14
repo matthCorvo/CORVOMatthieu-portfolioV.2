@@ -24,6 +24,18 @@ body{
     letter-spacing:0.2rem;
     background: rgba(0,0,0,0.6)!important;
 }
+.navbarjs{
+  text-transform: uppercase;
+  font-size:14px;
+  font-family: "Share Tech Mono", monospace;
+  font-weight: 700;
+  letter-spacing:0.2rem;
+  background: rgba(0,0,0,0.6)!important;
+}
+.navbarjs  a{
+  color:#fff;
+  text-decoration: none;
+}
 .navbar-dark .navbar-nav .nav-link{
     color:#fff;
 }
@@ -342,6 +354,15 @@ text-decoration: none;}
       margin: auto;
       position: relative;
   }
+  .loader .square1{
+    background:#fcd707;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    border-radius: 4px;
+  animation-fill-mode: both;
+    animation: motion 2.5s infinite cubic-bezier(0.89, 0.03, 0.06, 1.5);
+}
   .loader .square{
       background:rgb(0, 174, 255);
       width: 30px;
