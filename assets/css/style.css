@@ -170,13 +170,17 @@ width:100%;
   width: 80%;
 }
 .bar .progress-line.JavaScript span{
-  width: 45%;
+  width: 55%;
 }
 .bar .progress-line.Wordpress span{
   width: 75%;
 }
 .bar .progress-line.Bootstrap span{
-  width: 69%;
+  width: 72%;
+}
+
+.bar .progress-line.react span{
+  width: 5%;
 }
 .progress-line span::before{
   position: absolute;
@@ -217,13 +221,16 @@ width:100%;
   content: "80%";
 }
 .progress-line.JavaScript span::after{
-  content: "45%";
+  content: "55%";
 }
 .progress-line.Wordpress span::after{
   content: "75%";
 }
 .progress-line.Bootstrap span::after{
-  content: "69%";
+  content: "72%";
+}
+.progress-line.react span::after{
+  content: "5%";
 }
 
 
