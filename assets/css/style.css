@@ -246,6 +246,10 @@ width:100%;
     box-shadow: 0 0 2px 1px rgba(162, 221, 107, 0.911);
   }
 
+.card-img-top {
+    height: 15rem;
+    object-fit: cover;
+}
   
 .zoom {      
     -webkit-transition: all 0.35s ease-in-out;    
