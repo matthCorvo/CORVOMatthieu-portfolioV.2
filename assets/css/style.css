@@ -16,6 +16,16 @@ body{
     scroll-behavior: smooth;    }
     
 
+.bg {
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 .navbar{
     text-transform: uppercase;
     font-size:14px;
